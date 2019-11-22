@@ -46,7 +46,6 @@ Public Class Form1
         End Try
     End Function
 
-
     Sub showProgressBar()
         With ProgressBar1
             .Visible = True
