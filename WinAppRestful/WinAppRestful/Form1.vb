@@ -40,7 +40,7 @@ Public Class Form1
             'taruh data grid view
             DataGridView1.DataSource = dt
         Catch ex As Exception
-            Console.Write(ex.Message)
+            MsgBox(ex.Message)
         Finally
             hideProgressBar()
         End Try
